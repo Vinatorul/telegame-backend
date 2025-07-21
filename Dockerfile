@@ -15,7 +15,7 @@ WORKDIR /app
 
 # Copy the binary and config from builder
 COPY --from=builder /app/telegame-backend .
-COPY --from=builder /app/example.config.yaml ./config.yaml
+COPY --from=builder /app/config.yaml ./config.yaml
 
 # Expose the port
 EXPOSE 8080
