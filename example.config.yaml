@@ -1,0 +1,7 @@
+# Example configuration file
+# Rename to config.yaml and fill in your actual values
+
+telegram_token: "your_bot_token_here"
+game_short_name: "your_game_name"
+port: "8080"  # optional
+game_url: "https://your.game.url"  # optional
